@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Receitas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Página de Receitas</h1>
+        <p>Encontre receitas deliciosas para o seu dia!</p>
+    </header>
+    <main>
+        <section id="recipe-form">
+            <h2>Adicionar Receita</h2>
+            <form id="addRecipeForm">
+                <input type="text" id="recipeName" placeholder="Nome da Receita" required>
+                <textarea id="recipeIngredients" placeholder="Ingredientes (separados por vírgula)" required></textarea>
+                <textarea id="recipeSteps" placeholder="Passos para Preparo" required></textarea>
+                <button type="submit">Adicionar Receita</button>
+            </form>
+        </section>
+        <section id="recipe-list">
+            <h2>Receitas</h2>
+            <ul id="recipes">
+            </ul>
+        </section>
+
+
+        <section id="receitas-famosas">
+            <h2>Receitas Famosas</h2>
+            <div class="receita">
+                <img src="imgs/paoDeQueijo.jpeg" alt="Pão de Queijo">
+                <h3>Pão de Queijo</h3>
+                <p>Clássico brasileiro feito com polvilho doce e queijo, perfeito para o café da manhã ou lanche.</p>
+            </div>
+            <div class="receita">
+                <img src="imgs/boboDePalmito.jpeg" alt="Bobó de Palmito">
+                <h3>Bobó de Palmito</h3>
+                <p>Prato afro-brasileiro com leite de coco e dendê, servido na moranga.</p>
+            </div>
+            <div class="receita">
+                <img src="imgs/SaladaQuinoa.jpeg" alt="Salada de Quinoa">
+                <h3>Salada de Quinoa</h3>
+                <p>Receita leve e saudável com quinoa, uvas passas e cenoura.</p>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Pedro Yassuhira</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
